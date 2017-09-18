@@ -49,3 +49,9 @@ var presidents = [
 ];
 
 console.log(presidents[1].firstName + ' ' + presidents[1].lastName);
+
+function howdy() {
+    console.log("Caity G. O'Connor says hi!");
+}
+
+howdy();
