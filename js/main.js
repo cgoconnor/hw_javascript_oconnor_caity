@@ -71,3 +71,9 @@ var numba = function (string) {
 numba('7');
 numba('seventy');
 numba('university');
+
+var inception = function (display, favMovie) {
+    display(favMovie);
+};
+
+inception(console.log, 'While You Were Sleeping is a fantastic movie.');
