@@ -9,7 +9,7 @@ var barackObama = {
 };
 
 var georgeWBush = {
-    firstName: 'George',
+    firstName: 'George W.',
     lastName: 'Bush',
     termLength: 2,
     party: 'Republican',
@@ -25,7 +25,7 @@ var billClinton = {
 };
 
 var georgeBush = {
-    firstName: 'George',
+    firstName: 'George H.W.',
     lastName: 'Bush',
     termLength: 1,
     party: 'Republican',
@@ -39,3 +39,13 @@ var ronaldReagan = {
     party: 'Republican',
     yearsOfPresidency: 8
 };
+
+var presidents = [
+    barackObama,
+    georgeWBush,
+    billClinton,
+    georgeBush,
+    ronaldReagan
+];
+
+console.log(presidents[1].firstName + ' ' + presidents[1].lastName);
